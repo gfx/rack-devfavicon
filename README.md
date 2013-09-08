@@ -1,24 +1,29 @@
-# Rack::Middkeware::Devfavicon
+# Rack::DevFavicon
 
-TODO: Write a gem description
+The Rack::DevFavicon middleware shows the favicon in gray scale on a specified environment
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'rack-middkeware-devfavicon'
+    gem 'rack-devfavicon'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
-    $ gem install rack-middkeware-devfavicon
+    $ gem install rack-devfavicon
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+if Rails.env? != 'producction'
+    require 'rack-devfavicon'
+    use Rack::Devfavicon
+end
+```
 
 ## Contributing
 
