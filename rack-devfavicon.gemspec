@@ -5,7 +5,7 @@ require 'rack-devfavicon/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rack-devfavicon"
-  spec.version       = Rack::Devfavicon::VERSION
+  spec.version       = Rack::DevFavicon::VERSION
   spec.authors       = ["Fuji, Goro"]
   spec.email         = ["gfuji@cpan.org"]
   spec.description   = %q{A rack middleware to show gray-scaled favicon on development}

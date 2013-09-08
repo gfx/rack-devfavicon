@@ -1,5 +1,5 @@
 module Rack
-  module Devfavicon
+  class DevFavicon
     VERSION = "0.0.1"
   end
 end
