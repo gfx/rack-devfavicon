@@ -19,7 +19,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-if Rails.env? != 'producction'
+if ENV['RACK_ENV'] != 'production'
     require 'rack-devfavicon'
     use Rack::Devfavicon
 end
