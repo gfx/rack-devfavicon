@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Fuji, Goro"]
   spec.email         = ["gfuji@cpan.org"]
   spec.description   = %q{A rack middleware to show gray-scaled favicon on development}
-  spec.summary       = %q{}
+  spec.summary       = spec.description
   spec.homepage      = "https://github.com/gfx/rack-devfavicon/"
   spec.license       = "MIT"
 

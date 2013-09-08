@@ -6,7 +6,11 @@ The Rack::DevFavicon middleware shows the favicon in gray scale on a specified e
 
 Add this line to your application's Gemfile:
 
+```ruby
+group :development do
     gem 'rack-devfavicon'
+end
+```
 
 And then execute:
 
