@@ -1,6 +1,4 @@
-
 require 'rack-devfavicon/version'
-require 'rack'
 require 'rmagick'
 
 module Rack
